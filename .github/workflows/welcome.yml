@@ -1,6 +1,10 @@
-name: post wellcome hehe
+name: post wellcome comment
 on:
   pull_request: 
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  welcome:
+    name: post wellcome comment
+    runs-on: ubuntu-latest
